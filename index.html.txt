@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Psicología</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6; /* Color de fondo suave */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            margin: 0;
+            color: #333;
+        }
+
+        .profile-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin: 15px 0 5px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .links-container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .link-card {
+            background-color: #ffffff;
+            display: block;
+            text-decoration: none;
+            color: #333;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border: 1px solid #eaeaea;
+        }
+
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <img src="tu-foto.jpg" alt="Foto de Perfil" class="profile-pic">
+        <h1>Nombre y Apellido</h1>
+        <p>Psicología Clínica / Especialidad</p>
+    </div>
+
+    <div class="links-container">
+        <a href="https://wa.me/tu-numero" class="link-card" target="_blank">Agendar Cita (WhatsApp)</a>
+        <a href="mailto:tu-correo@mail.com" class="link-card">Enviar Correo</a>
+        <a href="https://facebook.com/tu-pagina" class="link-card" target="_blank">Facebook</a>
+        <a href="https://instagram.com/tu-perfil" class="link-card" target="_blank">Instagram</a>
+    </div>
+
+</body>
+</html>
